@@ -68,5 +68,4 @@ export const UpgradeButton = styled(Button)`
   border-radius: 100px;
   padding: 8px 32px;
   font-weight: 600;
-  margin: 0 0 24px  24px;
 `;

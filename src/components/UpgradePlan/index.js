@@ -94,7 +94,9 @@ const UpgradePlan = () => {
           </Box>
         </Box>
 
-        <UpgradeButton onClick={openPaymentModal}>Pay £250</UpgradeButton>
+        <Box className="floating-container">
+          <UpgradeButton onClick={openPaymentModal}>Pay £250</UpgradeButton>
+        </Box>
       </StyledPaper>
 
       <PaymentDialog

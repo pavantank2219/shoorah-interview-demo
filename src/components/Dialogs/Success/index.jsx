@@ -28,7 +28,9 @@ const SuccessDialog = ({ open, onClose, setIsSuccessModal }) => {
           24-48 hours. We’ll notify you as soon as it’s completed
         </Typography>
         <Box mt={4}>
-          <CommonButton onClick={onClose}>Got it!</CommonButton>
+          <CommonButton sx={{ margin: 0 }} onClick={onClose}>
+            Got it!
+          </CommonButton>
         </Box>
       </Box>
     </Dialog>
